@@ -1,0 +1,24 @@
+{
+  "name": "equalleaftree",
+  "version": "1.0.0",
+  "description": "A naive tree search implementation to verify that all leafs have equal values.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*.js -r chai/register-expect",
+    "test:watch": "npm test -- --watch --reporter min"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/axlj45/EqualLeafTree.git"
+  },
+  "author": "AJ Leonard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/axlj45/EqualLeafTree/issues"
+  },
+  "homepage": "https://github.com/axlj45/EqualLeafTree#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.5"
+  }
+}
